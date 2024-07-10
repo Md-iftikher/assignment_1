@@ -86,19 +86,21 @@ body {
     font-weight: 400;
     opacity: 0.7;
 }
-
-.banner-button {
-    margin-top: 26px;
-    width: 188px;
-    border-radius: 8px;
+.banner-button{
     background: rgb(13, 19, 33);
+    width: 188px;
+    text-align: center;
+    margin-top: 26px;
+    border-radius: 8px;
+}
+.banner-button a{
+   
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 15px;
     font-weight: 600;
     line-height: 23px;
-    text-align: center;
-
+    text-decoration: none;
 }
 
 /* why devlopment section style*/
@@ -330,6 +332,7 @@ body {
     font-weight: 700;
     line-height: 36px;
     text-align: center;
+    margin:6px;
 }
 
 .support-section-description {
@@ -339,7 +342,7 @@ body {
     font-weight: 400;
     line-height: 26px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     opacity: 0.7;
 }
 
@@ -365,4 +368,25 @@ body {
     background: rgb(255, 255, 255);
     width: 105px;
     height: 39px;
+}
+
+/* footer section sytle  */
+footer{
+    width: 1340px;
+    height: 100px;
+    background: rgba(13, 19, 33, 0.03);
+    margin: 0 auto;
+
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 130px 15px 130px;
+}
+.footer-container  h5{
+    font-weight: 600;
+}
+.footer-button{
+    border: none;
 }
