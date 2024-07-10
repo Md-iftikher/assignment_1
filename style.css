@@ -10,6 +10,9 @@
 body {
     font-family: "Azeret Mono", monospace;
 }
+.center{
+    text-align: center;
+}
 
 
 /* navbar styles */
@@ -86,15 +89,17 @@ body {
     font-weight: 400;
     opacity: 0.7;
 }
-.banner-button{
+
+.banner-button {
     background: rgb(13, 19, 33);
     width: 188px;
     text-align: center;
     margin-top: 26px;
     border-radius: 8px;
 }
-.banner-button a{
-   
+
+.banner-button a {
+
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 15px;
@@ -193,7 +198,8 @@ body {
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
 }
-.card-contianer-button button a{
+
+.card-contianer-button button a {
     text-decoration: none;
     color: black;
 }
@@ -314,6 +320,34 @@ body {
     opacity: 0.7;
 }
 
+/* next-target-section style*/
+.next-target-section {
+    width: 1035px;
+    height: 790px;
+    margin: 0 auto 30px;
+}
+
+.next-target-section-card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.next-target-section-card {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.target-img{
+    margin-right: 20px;
+}
+
+
 /* support-section style{} */
 .support-section {
     background-image: url(./assets/handshake.jpg);
@@ -336,7 +370,7 @@ body {
     font-weight: 700;
     line-height: 36px;
     text-align: center;
-    margin:6px;
+    margin: 6px;
 }
 
 .support-section-description {
@@ -375,22 +409,25 @@ body {
 }
 
 /* footer section sytle  */
-footer{
+footer {
     width: 1340px;
     height: 100px;
     background: rgba(13, 19, 33, 0.03);
     margin: 0 auto;
 
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 130px 15px 130px;
 }
-.footer-container  h5{
+
+.footer-container h5 {
     font-weight: 600;
 }
-.footer-button{
+
+.footer-button {
     border: none;
 }
